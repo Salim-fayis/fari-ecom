@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply font-sans bg-white text-gray-800;
+}
+
+.container {
+  @apply mx-auto px-4;
+}
+
+.btn {
+  @apply px-4 py-2 bg-black text-white font-bold uppercase text-xs;
+}
+
+.shop-now-btn {
+  @apply bg-black text-white px-4 py-1 text-xs font-bold uppercase;
+}
+
+/* Additional custom styles can be added here */
