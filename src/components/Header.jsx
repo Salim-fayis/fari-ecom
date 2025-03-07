@@ -199,7 +199,7 @@ const Header = () => {
 
           {/* Logo */}
           <Link to="/" className="text-2xl font-serif tracking-wider text-center md:text-left">
-            LUXURY BRAND
+          <span className="text-2xl font-bold">LE<span className="text-gray-500">FEVER</span></span>
           </Link>
 
           {/* Desktop Navigation */}
