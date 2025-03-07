@@ -198,9 +198,10 @@ const Header = () => {
           </button>
 
           {/* Logo */}
-          <Link to="/" className="text-2xl font-serif tracking-wider text-center md:text-left">
-          <span className="text-2xl font-bold">LE<span className="text-gray-500">FEVER</span></span>
-          </Link>
+          <Link to="/" className="text-2xl font-serif tracking-wider text-center md:text-left font-bold">
+  LE<span className="text-gray-500">FEVER</span>
+</Link>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">

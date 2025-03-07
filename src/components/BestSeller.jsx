@@ -72,7 +72,7 @@ const BestSellers = () => {
     <div className="py-12 px-4 relative">
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold uppercase">Best Sellers</h2>
-        <div className="w-12 h-0.5 bg-black mx-auto mt-2"></div>
+        <div className="w-full h-full bg-black mx-auto mt-2"></div>
         <Link to="/products" className="text-sm mt-2 inline-block text-blue-600 hover:underline">
           View All
         </Link>

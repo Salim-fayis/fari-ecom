@@ -5,12 +5,12 @@ const ProductCard = ({ product }) => {
   const { id, name, price, image, brand } = product;
   
   return (
-    <div className="product-card flex flex-col">
+    <div className="product-card  flex flex-col">
       <Link to={`/products/${id}`} className="block overflow-hidden mb-2 group">
         <img 
           src={image} 
           alt={name}
-          className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+          className="w-full  h-[350px] object-cover object-position:center group-hover:scale-105 transition-transform duration-300"
         />
       </Link>
       <div className="flex flex-col flex-grow">
